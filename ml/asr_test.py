@@ -1,7 +1,10 @@
-try:
-    import whisper
-    print("Whisper library loaded successfully")
-except Exception as e:
-    print("Whisper loaded with limited support:", e)
+import whisper
 
-print("ASR module setup completed")
+model = whisper.load_model("base")
+
+audio_path = "mlsample_audio/garhwali_sample.wav"
+
+result = model.transcribe(audio_path)
+
+print("Detected Text:")
+print(result["text"])

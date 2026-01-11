@@ -1,4 +1,12 @@
 Project: Garhwali–Kumaoni Voice Assistant
+
+##Current Implementation Status
+
+- ASR module implemented using OpenAI Whisper (prototype level)
+- Sample audio-based transcription tested locally
+- Modular design allows replacement with trained regional models
+- Output screenshots added for validation
+
 1. System Overview
 
 The Garhwali–Kumaoni Voice Assistant is a voice-based system designed to understand and respond to user commands in regional Himalayan languages (Garhwali and Kumaoni).
@@ -15,6 +23,7 @@ The goal of this project is to make technology more accessible for local users w
 4. Respond back in voice form
 
 5. Preserve and promote regional languages
+
 
 2. High-Level System Architecture
 🔹 Architecture Description
@@ -181,3 +190,9 @@ Backend API development
 Database & documentation
 
 Only code contributions are counted for evaluation
+## Output
+## Garhwali ASR Output
+[Garhwali Output] ("C:\Users\user\Pictures\gharwali.png")
+
+## Kumaoni ASR Output
+[Kumaoni Output] ("C:\Users\user\Pictures\Kumaoni.png")
