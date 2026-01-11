@@ -190,9 +190,3 @@ Backend API development
 Database & documentation
 
 Only code contributions are counted for evaluation
-## Output
-## Garhwali ASR Output
-[Garhwali Output] ("C:\Users\user\Pictures\gharwali.png")
-
-## Kumaoni ASR Output
-[Kumaoni Output] ("C:\Users\user\Pictures\Kumaoni.png")
